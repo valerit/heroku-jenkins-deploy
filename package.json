@@ -1,0 +1,19 @@
+{
+  "name": "heroku-jenkins-deploy",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:MaxosLLC/heroku-jenkins-deploy.git",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nyc ava 'test/**/*.test.js' --verbose"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.4"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "nyc": "^11.4.1",
+    "supertest": "^3.0.0"
+  }
+}
